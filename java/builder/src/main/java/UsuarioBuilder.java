@@ -49,8 +49,8 @@ public class UsuarioBuilder {
         return this;
     }
 
-    public UsuarioBuilder setDica_senha(String dica_senha) {
-        this.usuario.setDica_senha(dica_senha);
+    public UsuarioBuilder setDicaSenha(String dicaSenha) {
+        this.usuario.setDicaSenha(dicaSenha);
         return this;
     }
 }

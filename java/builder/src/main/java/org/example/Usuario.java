@@ -7,7 +7,7 @@ public class Usuario {
     public String senha = "";
     public String endereco;
     public String apelido;
-    public String dica_senha;
+    public String dicaSenha;
 
     public void setNome(String nome) {
         this.nome = nome;
@@ -29,8 +29,8 @@ public class Usuario {
         this.apelido = apelido;
     }
 
-    public void setDica_senha(String dica_senha) {
-        this.dica_senha = dica_senha;
+    public void setDicaSenha(String dicaSenha) {
+        this.dicaSenha = dicaSenha;
     }
 
     public String getNome() {
@@ -53,7 +53,7 @@ public class Usuario {
         return apelido;
     }
 
-    public String getDica_senha() {
-        return dica_senha;
+    public String getDicaSenha() {
+        return dicaSenha;
     }
 }
